@@ -1,0 +1,34 @@
+.galley-card{
+    box-shadow: 0 0 10px blueviolet;
+    border-radius: 10px;
+}
+
+.elem, .elem * {
+    box-sizing: border-box;
+    margin: 0 !important;
+}
+.elem {
+    display: inline-block;
+    width: 100%;
+}
+.row{
+    margin-bottom: -10px;
+}
+.elem > span {
+    display: block;
+    cursor: pointer;
+    height: 200px;
+    padding-bottom:	70%;
+    background-size: cover;
+    background-position: center center;
+}
+.lcl_fade_oc.lcl_pre_show #lcl_overlay,
+.lcl_fade_oc.lcl_pre_show #lcl_window,
+.lcl_fade_oc.lcl_is_closing #lcl_overlay,
+.lcl_fade_oc.lcl_is_closing #lcl_window {
+    opacity: 0 !important;
+}
+.lcl_fade_oc.lcl_is_closing #lcl_overlay {
+    -webkit-transition-delay: .15s !important;
+    transition-delay: .15s !important;
+}
